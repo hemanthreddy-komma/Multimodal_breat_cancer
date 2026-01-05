@@ -1,0 +1,14 @@
+tensorflow>=2.10
+keras>=2.10
+opencv-python
+matplotlib
+numpy
+pandas
+scikit-learn
+streamlit
+plotly
+reportlab
+qrcode
+seaborn
+lime
+shap
