@@ -1,11 +1,6 @@
 # Ignore datasets & models
 data/
 dataset/
-*.h5
-*.keras
-best_model.keras
-multimodal_model.h5
-multimodal_model.keras
 
 # Ignore caches
 __pycache__/
