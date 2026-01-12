@@ -1,4 +1,5 @@
 streamlit==1.32.0
+<<<<<<< HEAD
 tensorflow==2.20.0
 opencv-python-headless==4.12.0.88
 numpy==2.2.6
@@ -9,3 +10,15 @@ matplotlib==3.10.8
 shap==0.50.0
 lime==0.2.0.1
 pillow==12.1.0
+=======
+tensorflow==2.15.0
+opencv-python-headless==4.8.1.78
+numpy<2
+pandas
+scikit-learn
+matplotlib
+lime
+shap
+scikit-image
+protobuf<5
+>>>>>>> 4a308af380b2d01cbe7dd1eedcf7ec082c28e133
