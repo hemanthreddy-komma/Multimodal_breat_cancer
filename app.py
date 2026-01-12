@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import cv2
+cv2.setNumThreads(0)
 import tensorflow as tf
 import shap
 from lime import lime_image
