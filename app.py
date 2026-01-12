@@ -6,6 +6,9 @@ import tensorflow as tf
 import shap
 from lime import lime_image
 from skimage.segmentation import mark_boundaries
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="-1"
+
 
 st.set_page_config(layout="wide")
 
