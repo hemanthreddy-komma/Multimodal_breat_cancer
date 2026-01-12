@@ -4,9 +4,6 @@ data/
 *.csv
 *.zip
 
-# Ignore trained models
-*.h5
-*.keras
 *.onnx
 
 # Ignore cache / temp files
@@ -22,3 +19,4 @@ Thumbs.db
 # Ignore Streamlit secrets
 .streamlit/
 .env
+
