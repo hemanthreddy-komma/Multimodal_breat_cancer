@@ -70,7 +70,7 @@ def shap_explain(clinical):
     return explainer.shap_values(clinical)
 
 # ---------- UI ----------
-st.title("🧬 Multimodal Breast Cancer Diagnosis")
+st.title("🧬 MULTI-MODAL DEEP LEARNING MODEL FOR BREAST CANCER PREDICTION")
 
 uploaded = st.file_uploader("Upload Mammogram", type=["jpg","png"])
 age = st.slider("Age", 30, 90, 45)
@@ -117,3 +117,4 @@ if uploaded:
     st.subheader("📊 Clinical Feature Impact")
     shap_vals = shap_explain(clinical)
     st.write(dict(zip(["Age","Density","Mass Shape"], shap_vals[0][0])))
+
